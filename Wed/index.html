@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Video</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Ice T Land</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://en.wikipedia.org/wiki/Ice-T">Life <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Additional Ice T Facts
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Coco_Austin">Coco Austin</a>
+                            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Ice_Cube">Not Iced T</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Long_Island_Iced_Tea">Long
+                                Island Ice T</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="row">
+            <div class="col-sm-3" id="leftc">
+                <h3 style="text-align:center;">Iced T "The Rap God"</h3>
+                <div class="list-group">
+                    <a href="https://www.youtube.com/watch?v=wxe5f371rrg" class="list-group-item list-group-item-action">
+                        High Roller
+                    </a>
+                    <a href="https://www.youtube.com/results?search_query=99+problems+ice+t" class="list-group-item list-group-item-action">
+                        99 Problems</a>
+                    <a href="https://www.youtube.com/watch?v=scILa5iPBcg" class="list-group-item list-group-item-action">
+                        Original Gangster</a>
+                    <a href="https://www.youtube.com/results?search_query=freedom+of+speech+ice+t" class="list-group-item list-group-item-action">Freedom
+                        of Speech</a>
+                    <a href="https://www.youtube.com/watch?v=xH-Ydt-S-pY" class="list-group-item list-group-item-action">
+                        The Tower</a>
+                </div>
+            </div>
+            <div class="col-sm-6" id="midcol">
+
+                <div id="mainPhoto">
+                    <img src="images/Ice T2.jpeg" width="150px" />
+                </div>
+                Tracy Lauren Marrow (born February 16, 1958) better known by his stage name Ice-T, is an American
+                musician, rapper, songwriter, actor, record producer, record executive and author. He
+                began his career as an underground rapper in the 1980s and was signed to Sire Records in 1987,
+                when he released his debut album Rhyme Pays; the second hip-hop album to carry an explicit content
+                sticker after Slick Rick's La Di Da Di. The following year, he founded the record label Rhyme
+                $yndicate Records (named after his collective of fellow hip-hop artists called the "Rhyme
+                $yndicate") and released another album, Power, which went on to go Platinum. He also released several
+                other albums that went Gold.
+
+                <button type="button" id="myBtn" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    Ice T quotes
+                </button>
+
+
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Ice T Words of Wisdom</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body" id="text">
+                               
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="col-sm-3" id="rightc">
+                <h3 style="text-align:center;">Iced T "The Actor"</h3>
+                <div class="list-group">
+                    <a href="https://www.imdb.com/title/tt0114614/" class="list-group-item list-group-item-action">
+                        Tank Girl
+                    </a>
+                    <a href="https://www.imdb.com/title/tt0233142/" class="list-group-item list-group-item-action">3000
+                        Miles to Graceland</a>
+                    <a href="https://www.imdb.com/title/tt0209095/" class="list-group-item list-group-item-action">Leprechaun
+                        in the Hood</a>
+                    <a href="https://www.imdb.com/title/tt0209095/" class="list-group-item list-group-item-action">Breakin'</a>
+                    <a href="https://www.imdb.com/title/tt0203835/" class="list-group-item list-group-item-action">The
+                        Alternate</a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </main>
+    <footer>
+
+
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+
+                <p class="lead"><i>Diet food is for lazy people.~ Ice T</i></p>
+            </div>
+        </div>
+        <div id="bottom">Copyright of Fete.Inc
+
+        </div>
+
+
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $("#myBtn").click(function () {
+                $("#myModal").modal();
+                $(function () {
+                    let a = ["The best way to listen to the album is to put it on, get some Moet, lay back with your boys, and kick it. ~ Ice T", "When I first got into the rap game, I had an early dream of unifying rappers. ~ Ice T", "When I first got into the rap game, I had an early dream of unifying rappers.~ Ice T"]
+                   let rand =Math.floor(Math.random(1)*a.length);
+                  let quote = a[rand];
+                   console.log(rand);
+                    $("#text").text(quote);
+                })
+            });
+
+        });
+    </script>
+</body>
+
+</html>

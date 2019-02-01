@@ -1,0 +1,100 @@
+body{
+    font-family:'Open Sans',"sans-serif";
+    padding:0;
+    margin:0;
+    background-color: rgb(37, 37, 37);
+}
+
+html{
+        padding:0;
+    margin:0;
+}
+
+header{
+    background-color: rgb(63, 61, 66);
+    color:#ddd;
+    padding:0px;
+    text-align: center;
+}
+
+.list-group{
+    text-align:center;
+    position:relative;
+    top:5px;
+    left:-5px;
+    
+}
+
+.list-group a{
+    background-color:rgb(87, 84, 84);
+    color:white;
+}
+
+.list-group a:visited{
+    background-color:rgb(87, 84, 84);
+    color:white;
+}
+
+.list-group a:hover{
+    background-color:rgb(184, 174, 174);
+    color:white;
+}
+
+
+main{
+    padding:0;
+    margin:0;
+}
+.col-sm-6{
+    padding:25px;
+    margin:0;
+    background-color:rgb(87, 84, 84);
+    color:white;
+}
+.col-sm-3{
+    padding:25px;
+    margin:0; 
+    background-color:rgb(63, 61, 61);
+    color:white;
+}
+
+
+#leftc{
+    border-right: 0px;
+    padding:40px;
+}
+#rightc{
+    border-left:0;
+    
+}
+#midcol{
+ border-right:0;
+}
+footer .jumbotron{
+    background-image: url('images/it2.jpg');
+    height:250px;
+    width:100%;
+    margin-bottom: 0;
+}
+#bottom{
+    width: 100%;
+    padding:7px; 
+    background-color:rgb(63, 61, 61);
+    color:white;
+    text-align: center;
+    font-size: .8em;
+
+}
+#mainPhoto{
+    float:left;
+    margin:0px 15px 0px 0px;
+}
+
+.btn.btn-primary{
+    display: block;
+    clear: both;
+    margin-top:15px;
+}
+.modal-content{
+    background-color: black;
+}
